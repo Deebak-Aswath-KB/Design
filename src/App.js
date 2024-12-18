@@ -1,12 +1,13 @@
-import './App.css';
-import Parent from './Components/Parent';
 
+// import Parent from './Components/Parent';
+import FirstBox from './Components/FirstBox';
 
 function App() {
   return (
-    <Parent>
+    // <Parent>
       
-    </Parent>
+    // </Parent>
+    <FirstBox/>
   );
 }
 
