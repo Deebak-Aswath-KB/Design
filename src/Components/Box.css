@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}  
+.parentbox{
+    background-color: violet;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.borderbox{
+    background-color: gray;
+    width: 90vw;
+    height: auto;
+    min-height: 90vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container{
+    background-color: aqua;
+    height: auto;
+    min-height: 85vh;
+    width: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px;
+}
+
+
+.profileimage{
+    background-color: white;
+    height: calc(64vh - 4px);
+    width: calc(100% - 5px);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    border: solid 3px;
+}
+
+#img{
+    height: 50vh;
+    width: 100%;
+    
+}
+
+.icon{
+    align-self: flex-end;
+    margin-left: 90%;
+}
+.profilename{
+    background-color: yellow;
+    height: calc(21vh - 5px);
+    width: calc(100% - 5px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    border: solid 3px;
+}
+.centeralign{
+    background-color: yellow;
+    height: calc(20vh - 5px);
+    width: calc(100% - 5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    border: solid 3px;
+}
+.topcenteralign{
+    background-color: green;
+    height: calc(20vh - 5px);
+    width: calc(100% - 5px);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: x-large;
+    border: solid 3px;
+}
+
+
+.bottombox{
+    background-color: aliceblue;
+    height:45vh;
+    width: 100%;
+    display: flex;
+}
+
+.topleft{
+    background-color: yellow;
+    height: calc(100% - 4px);
+    width: calc(33% - 5px);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-size: x-large;
+    border: solid 3px;
+}
+.bottom{
+    background-color: green;
+    height: calc(100% - 4px);
+    width: calc(34% - 5px);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: x-large;
+    border: solid 3px;
+
+}
+.bottomright{
+    background-color: yellow;
+    height: calc(100% - 4px);
+    width: calc(33% - 4px);
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: x-large;
+    border: solid 3px;
+
+}

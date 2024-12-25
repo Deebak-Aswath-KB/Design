@@ -1,13 +1,10 @@
 
-// import Parent from './Components/Parent';
-import FirstBox from './Components/FirstBox';
+import Box from './Components/Box';
 
 function App() {
   return (
-    // <Parent>
-      
-    // </Parent>
-    <FirstBox/>
+  
+    <Box/>
   );
 }
 
